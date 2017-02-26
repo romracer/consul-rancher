@@ -1,5 +1,5 @@
-FROM gliderlabs/consul-agent:latest
+FROM consul:0.7.5
 
-ADD entry.sh /entry.sh
+ADD run.sh /run.sh
 
-ENTRYPOINT ["/entry.sh"]
+ENTRYPOINT ["/run.sh"]
