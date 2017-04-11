@@ -1,4 +1,4 @@
-FROM consul:0.7.5
+FROM consul:0.8.0
 
 ADD run.sh /run.sh
 
